@@ -2,7 +2,6 @@ import { ArrowDown, ArrowUpRight, Mail } from 'lucide-react';
 
 const projects = [
   { title: 'Four-bit absolute comparator', category: 'Digital circuit design & optimization', date: 'Mar – Jul 2024', description: 'Designed and optimized a four-bit absolute comparator, from Boolean logic to circuit-level performance. Verified functionality in MATLAB and explored the trade-off between energy consumption and delay.', details: ['Simplified logic with Karnaugh maps and De Morgan’s laws.', 'Analyzed critical paths and adjusted gate sizes and supply voltage.', 'Project accepted by the 2024 International Conference on Computers, Information Processing and Advanced Education (CIPAE).'], tools: ['Logic optimization', 'MATLAB', 'Gate sizing'] },
-  { title: 'Python-based network monitoring', category: 'Network measurement & visualization', date: 'Sep 2022 – Jan 2023', description: 'Built a real-time network monitoring application with a graphical interface for configuring IP addresses and ports, running bandwidth and latency tests, and visualizing network performance.', details: ['Integrated iperf and ping for network measurements.', 'Created live visualizations with matplotlib and seaborn.'], tools: ['Python', 'tkinter', 'iperf & ping'] },
 ];
 
 export default function Home() {
@@ -14,13 +13,12 @@ export default function Home() {
     </header>
     <main id="main">
       <section className="intro" aria-labelledby="name">
-        <div className="intro-copy"><p className="eyebrow">Electrical & Computer Engineering</p><h1 id="name">Hongyu<br />Deng<span>.</span></h1><p className="intro-text">A background in electronic engineering, with project experience in digital circuit optimization and network monitoring.</p><div className="intro-links"><a className="primary-link" href="/Hongyu_Deng_Academic_CV.pdf" download>Download CV <ArrowDown size={18} aria-hidden="true" /></a><a className="text-link" href="mailto:superdhy6@163.com">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
+        <div className="intro-copy"><p className="eyebrow">Electrical & Computer Engineering</p><h1 id="name">Hongyu<br />Deng<span>.</span></h1><p className="intro-text">A background in electronic engineering, with project experience in digital circuit design and optimization.</p><div className="intro-links"><a className="primary-link" href="/Hongyu_Deng_Academic_CV.pdf" download>Download CV <ArrowDown size={18} aria-hidden="true" /></a><a className="text-link" href="mailto:superdhy6@163.com">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
         <aside className="academic-note" aria-label="Academic background"><span className="note-label">Graduate studies</span><h2>Lehigh<br />University</h2><p>Master’s in Electrical and Computer Engineering</p><div className="note-bottom"><span>Expected graduation</span><strong>May 2027</strong></div><div className="note-rule" /><p className="note-foot">P.C. Rossin College of Engineering<br />and Applied Science</p></aside>
       </section>
       <section id="projects" className="content-section" aria-labelledby="projects-title">
-        <div className="section-heading"><span className="section-index">01 / Projects</span><h2 id="projects-title">Selected work</h2><p>From logic design to system measurement.</p></div>
+        <div className="section-heading"><span className="section-index">01 / Projects</span><h2 id="projects-title">Selected work</h2><p>Logic design and circuit optimization.</p></div>
         <div className="project-list">{projects.map(project => <article className="project" key={project.title}><div className="project-meta"><span>{project.category}</span><span>{project.date}</span></div><h3>{project.title}</h3><p>{project.description}</p><ul>{project.details.map(detail => <li key={detail}>{detail}</li>)}</ul><div className="tags" aria-label="Methods and tools">{project.tools.map(tool => <span key={tool}>{tool}</span>)}</div></article>)}
-          <article className="seminar"><div className="project-meta"><span>Academic training</span><span>Mar – Jul 2024</span></div><h3>Digital Integrated Circuits — Introduction to VLSI</h3><p>An online research seminar covering MOS transistor models, CMOS scaling, inverter characteristics, logical effort, and gate sizing. Completed a two-phase logic design and optimization project with a written report and oral presentation.</p></article>
         </div>
       </section>
       <section id="education" className="content-section" aria-labelledby="education-title">
