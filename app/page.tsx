@@ -9,11 +9,11 @@ export default function Home() {
     <a className="skip-link" href="#main">Skip to content</a>
     <header className="site-header">
       <a href="#" className="wordmark" aria-label="Hongyu Deng, home">HD<span>.</span></a>
-      <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="mailto:superdhy6@163.com" className="nav-contact">Contact <ArrowUpRight size={16} aria-hidden="true" /></a></nav>
+      <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="mailto:hongyudeng6@gmail.com" className="nav-contact">Contact <ArrowUpRight size={16} aria-hidden="true" /></a></nav>
     </header>
     <main id="main">
       <section className="intro" aria-labelledby="name">
-        <div className="intro-copy"><p className="eyebrow">Electrical & Computer Engineering</p><h1 id="name">Hongyu<br />Deng<span>.</span></h1><p className="intro-text">A background in electronic engineering, with project experience in digital circuit design and optimization.</p><div className="intro-links"><a className="primary-link" href="/Hongyu_Deng_Academic_CV.pdf" download>Download CV <ArrowDown size={18} aria-hidden="true" /></a><a className="text-link" href="mailto:superdhy6@163.com">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
+        <div className="intro-copy"><p className="eyebrow">Electrical & Computer Engineering</p><h1 id="name">Hongyu<br />Deng<span>.</span></h1><p className="intro-text">A background in electronic engineering, with project experience in digital circuit design and optimization.</p><div className="intro-links"><a className="primary-link" href="/Hongyu_Deng_Academic_CV.pdf" download>Download CV <ArrowDown size={18} aria-hidden="true" /></a><a className="text-link" href="mailto:hongyudeng6@gmail.com">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
         <aside className="academic-note" aria-label="Academic background"><span className="note-label">Graduate studies</span><h2>Lehigh<br />University</h2><p>Master’s in Electrical and Computer Engineering</p><div className="note-bottom"><span>Expected graduation</span><strong>May 2027</strong></div><div className="note-rule" /><p className="note-foot">P.C. Rossin College of Engineering<br />and Applied Science</p></aside>
       </section>
       <section id="projects" className="content-section" aria-labelledby="projects-title">
@@ -34,6 +34,6 @@ export default function Home() {
         <div><article className="experience-item"><div className="project-meta"><span>Internship · Technical Department</span><span>Mar – Jun 2024</span></div><h3>Electrical Control Engineer</h3><p className="company">Xiamen Deep Blue Power Technology Co., Ltd</p><p>Supported circuit-board testing and repair for charging equipment, installation and testing of a home backup energy storage device, and battery-pack module improvements addressing overheating.</p><p>Contributed to multithreading and algorithm optimization, product testing, and data analysis.</p></article><div className="skills"><h3>Technical toolkit</h3><div className="tags"><span>C++</span><span>Python</span><span>MATLAB</span></div></div></div>
       </section>
     </main>
-    <footer><div><span className="eyebrow">Contact</span><a href="mailto:superdhy6@163.com" className="email-link">superdhy6@163.com <Mail size={22} aria-hidden="true" /></a></div><p>Hongyu Deng<br /><span>Electrical & Computer Engineering</span></p></footer>
+    <footer><div><span className="eyebrow">Contact</span><a href="mailto:hongyudeng6@gmail.com" className="email-link">hongyudeng6@gmail.com <Mail size={22} aria-hidden="true" /></a></div><p>Hongyu Deng<br /><span>Electrical & Computer Engineering</span></p></footer>
   </>;
 }
