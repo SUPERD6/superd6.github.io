@@ -55,7 +55,8 @@
       "status": "published",
       "doi": "10.1109/cipae64326.2024.00053",
       "url": "https://doi.org/10.1109/cipae64326.2024.00053",
-      "publisher_url": "https://ieeexplore.ieee.org/document/10788217/"
+      "publisher_url": "https://ieeexplore.ieee.org/document/10788217/",
+      "summary": "Designed the comparator logic and verified its functionality in MATLAB. Optimized gate sizing and supply voltage to reduce energy consumption by 48.13% at 1.5 times the baseline delay."
     }
   ],
   "experience": [
