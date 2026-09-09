@@ -1,0 +1,78 @@
+{
+  "name": "Hongyu Deng",
+  "email": "hongyudeng6@gmail.com",
+  "intro": "A background in electronic engineering, with project experience in digital circuit design and optimization.",
+  "education": [
+    {
+      "institution": "Lehigh University",
+      "location": "Pennsylvania, United States",
+      "school": "P.C. Rossin College of Engineering and Applied Science",
+      "degree": "Master's in Electrical and Computer Engineering",
+      "date": "Expected May 2027"
+    },
+    {
+      "institution": "Maynooth University",
+      "location": "Maynooth, Ireland",
+      "school": "",
+      "degree": "BEng in Electronic Engineering, Joint Degree Program",
+      "date": "Sep 2021 - Jun 2025"
+    },
+    {
+      "institution": "Fuzhou University",
+      "location": "Fuzhou, China",
+      "school": "Maynooth International Engineering College",
+      "degree": "BEng in Electronic Information Engineering",
+      "date": "Sep 2021 - Jun 2025"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Four-bit absolute comparator",
+      "category": "Digital circuit design & optimization",
+      "date": "Mar - Jul 2024",
+      "description": "Designed and optimized a four-bit absolute comparator, from Boolean logic to circuit-level performance. Verified functionality in MATLAB and explored the trade-off between energy consumption and delay.",
+      "details": [
+        "Designed and integrated absolute-value and comparator logic using truth tables, Karnaugh maps, and De Morgan's laws; verified circuit functionality through MATLAB simulation.",
+        "Adjusted gate sizes and supply voltage along the critical path to evaluate the energy-delay tradeoff.",
+        "Reduced energy consumption by 48.13% at 1.5 times the baseline delay while maintaining circuit functionality."
+      ],
+      "tools": [
+        "Logic optimization",
+        "MATLAB",
+        "Gate sizing"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Fabrication and Optimization of a Four-Bit Absolute Comparator",
+      "authors": [
+        "Hongyu Deng"
+      ],
+      "venue": "2024 International Conference on Computers, Information Processing and Advanced Education (CIPAE)",
+      "year": 2024,
+      "pages": "264-270",
+      "status": "published",
+      "doi": "10.1109/cipae64326.2024.00053",
+      "url": "https://doi.org/10.1109/cipae64326.2024.00053",
+      "publisher_url": "https://ieeexplore.ieee.org/document/10788217/"
+    }
+  ],
+  "experience": [
+    {
+      "organization": "Xiamen Deep Blue Power Technology Co., Ltd.",
+      "role": "Electrical Control Engineer, Technical Department",
+      "date": "Mar - Jun 2024",
+      "bullets": [
+        "Assisted with circuit board soldering, testing, troubleshooting, and repair for charging stations.",
+        "Supported installation and testing of a home backup energy storage system; implemented multithreading and algorithm optimizations to improve performance.",
+        "Contributed to a battery pack module upgrade to address overheating in charging stations; conducted testing and data analysis to support product efficiency and reliability."
+      ]
+    }
+  ],
+  "programming": [
+    "Python",
+    "C++",
+    "MATLAB"
+  ]
+}

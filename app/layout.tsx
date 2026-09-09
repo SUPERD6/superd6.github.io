@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
+import profile from './profile.json';
 import './globals.css';
 export const metadata: Metadata = {
-  title: 'Hongyu Deng | Electrical & Computer Engineering',
-  description: 'Academic profile of Hongyu Deng: education at Lehigh, Maynooth, and Fuzhou universities, digital circuit optimization, and engineering experience.',
+  title: profile.name + ' | Electrical & Computer Engineering',
+  description: profile.intro,
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en"><body>{children}</body></html>;
