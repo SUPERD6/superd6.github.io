@@ -1,7 +1,8 @@
 {
   "name": "Hongyu Deng",
   "email": "hongyudeng6@gmail.com",
-  "intro": "A background in electronic engineering, with project experience in digital circuit design and optimization.",
+  "intro": "I am a master's student in Electrical and Computer Engineering at Lehigh University. My previous work includes digital logic design, MATLAB simulation, and analysis of energy-delay trade-offs.",
+  "site_url": "https://superd6.github.io/",
   "education": [
     {
       "institution": "Lehigh University",
@@ -32,9 +33,9 @@
       "date": "Mar - Jul 2024",
       "description": "Designed and optimized a four-bit absolute comparator, from Boolean logic to circuit-level performance. Verified functionality in MATLAB and explored the trade-off between energy consumption and delay.",
       "details": [
-        "Designed and integrated absolute-value and comparator logic using truth tables, Karnaugh maps, and De Morgan's laws; verified circuit functionality through MATLAB simulation.",
-        "Adjusted gate sizes and supply voltage along the critical path to evaluate the energy-delay tradeoff.",
-        "Reduced energy consumption by 48.13% at 1.5 times the baseline delay while maintaining circuit functionality."
+        "Designed four-bit absolute comparator logic using truth tables and Karnaugh maps; verified functionality in MATLAB.",
+        "Evaluated energy-delay trade-offs by varying gate sizes and supply voltage along the critical path.",
+        "Reduced energy consumption by 48.13% with delay at 1.5 times the baseline, preserving logical functionality."
       ],
       "tools": [
         "Logic optimization",
@@ -56,7 +57,7 @@
       "doi": "10.1109/cipae64326.2024.00053",
       "url": "https://doi.org/10.1109/cipae64326.2024.00053",
       "publisher_url": "https://ieeexplore.ieee.org/document/10788217/",
-      "summary": "Designed the comparator logic and verified its functionality in MATLAB. Optimized gate sizing and supply voltage to reduce energy consumption by 48.13% at 1.5 times the baseline delay."
+      "summary": "Designed the comparator logic and verified its functionality in MATLAB. Studied energy-delay trade-offs through gate sizing and supply-voltage optimization."
     }
   ],
   "experience": [
@@ -65,10 +66,20 @@
       "role": "Electrical Control Engineer, Technical Department",
       "date": "Mar - Jun 2024",
       "bullets": [
-        "Assisted with circuit board soldering, testing, troubleshooting, and repair for charging stations.",
-        "Supported installation and testing of a home backup energy storage system; implemented multithreading and algorithm optimizations to improve performance.",
-        "Contributed to a battery pack module upgrade to address overheating in charging stations; conducted testing and data analysis to support product efficiency and reliability."
+        "Assisted with soldering, testing, troubleshooting, and repair of charging-station circuit boards.",
+        "Supported installation and testing of a home backup energy storage system, including multithreading and algorithm optimization.",
+        "Tested and analyzed a battery pack module upgrade intended to address overheating in charging stations."
       ]
+    }
+  ],
+  "skills": [
+    {
+      "label": "Programming",
+      "value": "Python, C++, MATLAB"
+    },
+    {
+      "label": "Tools and methods",
+      "value": "Digital logic design, Karnaugh maps, circuit simulation, circuit board testing"
     }
   ],
   "programming": [
