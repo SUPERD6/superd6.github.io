@@ -8,9 +8,10 @@ export default function Home() {
   const contact = 'mailto:' + profile.email;
   return <>
     <a className="skip-link" href="#main">Skip to content</a>
-    <header className="site-header">
-      <a href="#main" className="wordmark" aria-label={profile.name + ', home'}>HD<span>.</span></a>
+    <header id="top" className="site-header" tabIndex={-1}>
+      <a href="#top" className="wordmark" aria-label={profile.name + ', home'}>HD<span>.</span></a>
       <nav aria-label="Main navigation">
+        {profile.projects.length > 0 && <a href="#projects">Projects</a>}
         {profile.publications.length > 0 && <a href="#publications">Publications</a>}
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
@@ -29,8 +30,17 @@ export default function Home() {
         </div>
       </section>
 
+      {profile.projects.length > 0 && <section id="projects" className="content-section" aria-labelledby="projects-title">
+        <div className="section-heading"><span className="section-index">01</span><h2 id="projects-title">Projects</h2></div>
+        <div>{profile.projects.map(project => <article className="project-entry" key={project.title}>
+          <div className="entry-meta"><span>{project.category}</span><span>{project.date}</span></div>
+          <h3>{project.title}</h3>
+          <p className="project-summary">{project.description}</p>
+        </article>)}</div>
+      </section>}
+
       {profile.publications.length > 0 && <section id="publications" className="content-section" aria-labelledby="publications-title">
-        <div className="section-heading"><span className="section-index">01</span><h2 id="publications-title">Publications</h2></div>
+        <div className="section-heading"><h2 id="publications-title">Publications</h2></div>
         <div>{profile.publications.map(paper => <article className="publication" key={paper.doi}>
           <div className="entry-meta"><span className="publication-status">{paper.status} · Conference paper</span><span>{paper.year}</span></div>
           <h3><a href={paper.url} target="_blank" rel="noopener noreferrer">{paper.title}</a></h3>
@@ -67,7 +77,7 @@ export default function Home() {
     </main>
     <footer>
       <a className="text-link email" href={contact}><Mail size={17} aria-hidden="true" />{profile.email}</a>
-      <a className="text-link" href="#main">Back to top <span aria-hidden="true">↑</span></a>
+      <a className="text-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
     </footer>
   </>;
 }

@@ -44,22 +44,7 @@
       ]
     }
   ],
-  "publications": [
-    {
-      "title": "Fabrication and Optimization of a Four-Bit Absolute Comparator",
-      "authors": [
-        "Hongyu Deng"
-      ],
-      "venue": "2024 International Conference on Computers, Information Processing and Advanced Education (CIPAE)",
-      "year": 2024,
-      "pages": "264-270",
-      "status": "published",
-      "doi": "10.1109/cipae64326.2024.00053",
-      "url": "https://doi.org/10.1109/cipae64326.2024.00053",
-      "publisher_url": "https://ieeexplore.ieee.org/document/10788217/",
-      "summary": "Designed the comparator logic and verified its functionality in MATLAB. Studied energy-delay trade-offs through gate sizing and supply-voltage optimization."
-    }
-  ],
+  "publications": [],
   "experience": [
     {
       "organization": "Xiamen Deep Blue Power Technology Co., Ltd.",
