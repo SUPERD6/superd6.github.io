@@ -11,6 +11,7 @@ export default function Home() {
     <header id="top" className="site-header" tabIndex={-1}>
       <a href="#top" className="wordmark" aria-label={profile.name + ', home'}>HD<span>.</span></a>
       <nav aria-label="Main navigation">
+        {profile.learning.length > 0 && <a href="#learning">Learning</a>}
         {profile.projects.length > 0 && <a href="#projects">Projects</a>}
         {profile.publications.length > 0 && <a href="#publications">Publications</a>}
         <a href="#education">Education</a>
@@ -30,8 +31,15 @@ export default function Home() {
         </div>
       </section>
 
+      {profile.learning.length > 0 && <section id="learning" className="content-section" aria-labelledby="learning-title">
+        <div className="section-heading"><span className="section-index">01</span><h2 id="learning-title">Independent study</h2></div>
+        <div>{profile.learning.map(entry => <article className="learning-entry" key={entry.topic}>
+          <h3>{entry.topic}</h3><p className="project-summary">{entry.summary}</p>
+        </article>)}</div>
+      </section>}
+
       {profile.projects.length > 0 && <section id="projects" className="content-section" aria-labelledby="projects-title">
-        <div className="section-heading"><span className="section-index">01</span><h2 id="projects-title">Projects</h2></div>
+        <div className="section-heading"><span className="section-index">02</span><h2 id="projects-title">Projects</h2></div>
         <div>{profile.projects.map(project => <article className="project-entry" key={project.title}>
           <div className="entry-meta"><span>{project.category}</span><span>{project.date}</span></div>
           <h3>{project.title}</h3>
@@ -55,7 +63,7 @@ export default function Home() {
       </section>}
 
       <section id="education" className="content-section" aria-labelledby="education-title">
-        <div className="section-heading"><span className="section-index">02</span><h2 id="education-title">Education</h2></div>
+        <div className="section-heading"><span className="section-index">03</span><h2 id="education-title">Education</h2></div>
         <div>{profile.education.map(item => <article className="education-item" key={item.institution}>
           <div className="entry-meta"><h3>{item.institution}</h3><span>{item.date}</span></div>
           <p>{item.degree}</p>
@@ -64,7 +72,7 @@ export default function Home() {
       </section>
 
       <section id="experience" className="content-section" aria-labelledby="experience-title">
-        <div className="section-heading"><span className="section-index">03</span><h2 id="experience-title">Experience</h2></div>
+        <div className="section-heading"><span className="section-index">04</span><h2 id="experience-title">Experience</h2></div>
         <div>{profile.experience.map(item => <article className="experience-item" key={item.organization + item.date}>
           <div className="entry-meta"><span>Internship</span><span>{item.date}</span></div>
           <h3>{item.organization}</h3>

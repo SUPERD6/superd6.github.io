@@ -1,7 +1,7 @@
 {
   "name": "Hongyu Deng",
   "email": "hongyudeng6@gmail.com",
-  "intro": "I am a master's student in Electrical and Computer Engineering at Lehigh University. My previous work includes digital logic design, MATLAB simulation, and analysis of energy-delay trade-offs.",
+  "intro": "I am a master's student in Electrical and Computer Engineering at Lehigh University. I am studying AI agents, agent harnesses, and reinforcement learning, with a focus on how these systems are built and used.",
   "site_url": "https://superd6.github.io/",
   "education": [
     {
@@ -24,6 +24,20 @@
       "school": "Maynooth International Engineering College",
       "degree": "BEng in Electronic Information Engineering",
       "date": "Sep 2021 - Jun 2025"
+    }
+  ],
+  "learning": [
+    {
+      "topic": "AI agents",
+      "summary": "Studying tool-calling loops and structured tool inputs and outputs, including how a model receives and uses tool results."
+    },
+    {
+      "topic": "Agent harnesses",
+      "summary": "Exploring workflow orchestration, task state, and evidence tracking through a personal research harness and literature-retrieval examples."
+    },
+    {
+      "topic": "Reinforcement learning",
+      "summary": "Studying reinforcement learning fundamentals and reward-driven sequential decision-making."
     }
   ],
   "projects": [

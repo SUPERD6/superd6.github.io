@@ -53,6 +53,8 @@ h3 { font-size: 1.1875rem; line-height: 1.5; font-weight: 600; margin: 0 0 .5rem
 .publication-summary { margin: 1rem 0 .5rem; color: var(--secondary); }
 .project-summary { color: var(--secondary); margin: 0; }
 .project-entry + .project-entry { margin-top: 1.8rem; }
+.learning-entry + .learning-entry { margin-top: 1.4rem; }
+.learning-entry h3 { overflow-wrap: anywhere; }
 .paper-links { gap: .25rem 1.5rem; }
 .education-item + .education-item { margin-top: 1.7rem; padding-top: 1.7rem; border-top: 1px solid var(--border); }
 .education-item .entry-meta { margin-bottom: .3rem; }
